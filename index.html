@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab11</title>
+    <script src="jquery-3.7.1.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="MainDiv">
+        <h1 id="MainH">DuoRoma</h1>
+        <div id="ContainDiv">
+            <div class="smallDiv">
+                <div class="Name" id="UserName">User</div>
+                <div id="radioBoxDiv">
+                    <input type="radio" name="radioButton" id="EasyButton" checked>
+                    <label for="radioButton">Easy</label>
+                    <input type="radio" name="radioButton" id="MediumButton">
+                    <label for="radioButton">Medium</label>
+                    <input type="radio" name="radioButton" id="HardButton">
+                    <label for="radioButton">Hard</label>
+                </div>
+                <div id="CardBox">
+                   Apple
+                </div>
+                <input type="text" name="answer" id="Answer" autofocus>
+                <div id="CorrectAnswer">
+                    <p>Правильно: <span id="correct-count">0</span></p>
+                    <p>Неправильно: <span id="incorrect-count">0</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Modal">
+        <div class="modalWindow">
+            <label for="NickName">Введіть свій нікнейм:</label>
+            <input id="InputNick" autofocus maxlength="15" type="text" required>
+            <button id="ButtonOk" type="button">OK</button>   
+        </div>
+        <div class="modalBackground"></div>
+    </div>
+    <div id="WinnerWindow" style="display: none;">
+        <div class="modalWindow">
+            <label id="LabelWinner" for="NickName"></label>
+            <button id="ButtonRestart" type="button" style="width: 100px;">Переграти</button>   
+        </div>
+        <div class="modalBackground"></div>
+    </div>    
+</body>
+</html>

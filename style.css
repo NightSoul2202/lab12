@@ -1,0 +1,238 @@
+html, body{
+    height: 100%;
+}
+body{
+    margin:0px; 
+    background-image: url("Galaxy-stars.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+
+#MainDiv
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height:100%;
+}
+
+#MainH{
+    margin: 3%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#radioBoxDiv {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#ContainDiv
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* 
+#CountOfAttempt{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+    width:100%;
+    height:50px;
+    color:black;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.4);
+    margin-bottom:10px;
+} */
+
+#Answer
+{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 50px;
+    width: 98%;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.4);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color: black;
+}
+
+.smallDiv
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 255px;
+    height: 425px;
+    color: #fff;
+}
+
+.Name
+{
+    font-size:x-large;
+    margin-bottom:10px;
+}
+
+p{
+    font-size: 24px;
+}
+
+#CardBox{
+    width: 100%;
+    height: 150px;    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:white;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.4);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+/* .styleForBox{
+    width: 83px;
+    height: 83px;
+    margin: 1px;
+    background-color:black;
+    border-radius: 10px;
+} */
+
+/* .countOfPoint
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+    width:95%;
+    height:20%;
+    color:black;
+    border-radius: 10px;
+    background-color:white;
+} */
+
+/* .randomBall
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+    border-radius: 10px;
+    width:95%;
+    height:45%;
+    color:#fff;
+    background-color:black;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.4);
+} */
+
+#ButtonGen
+{
+    font-size:x-large;
+    height: 50px;
+    background-color: #fff;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 10px 15px rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    margin-bottom:10px;
+}
+
+#Modal
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.smallImg img
+{
+    width:80px;
+    height:80px;
+}
+
+.modalWindow
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    max-width: 600px;
+    text-align: center;
+    width: 550px;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+    background-color:#fff;
+    
+}
+
+.modalWindow label
+{
+    font-size:xx-large;
+    margin-bottom: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.modalWindow input
+{
+    font-size:x-large;
+    width: 70%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.modalWindow button
+{
+    font-size:large;
+    width: 10%;
+    border-radius: 30px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.modalBackground
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    background-color:#656D7F;
+    opacity: 0.8;
+}
+
+#WinnerWindow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
