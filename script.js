@@ -3,21 +3,6 @@
 let words = [
     { word: "Apple", translation: "Яблуко" },
     { word: "Banana", translation: "Банан" },
-    { word: "Carrot", translation: "Морква" }
-];
-
-let wordsMedium = [
-    { word: "Apple", translation: "Яблуко" },
-    { word: "Banana", translation: "Банан" },
-    { word: "Carrot", translation: "Морква" },
-    { word: "Orange", translation: "Апельсин" },
-    { word: "Grape", translation: "Виноград" },
-    { word: "Strawberry", translation: "Полуниця" }
-];
-
-let wordsHard = [
-    { word: "Apple", translation: "Яблуко" },
-    { word: "Banana", translation: "Банан" },
     { word: "Carrot", translation: "Морква" },
     { word: "Orange", translation: "Апельсин" },
     { word: "Grape", translation: "Виноград" },
@@ -28,6 +13,36 @@ let wordsHard = [
     { word: "Pomegranate", translation: "Гранат" },
     { word: "Lemon", translation: "Лимон" },
     { word: "Apricot", translation: "Абрикос" }
+];
+
+let wordsMedium = [
+    { word: "desist", translation: "Заборонити" },
+    { word: "mature", translation: "Дозріти" },
+    { word: "approve", translation: "Затвердити" },
+    { word: "deliver", translation: "Доставляти" },
+    { word: "torture", translation: "Мучити" },
+    { word: "escape", translation: "втекти" },
+    { word: "maintain", translation: "Підтримувати" },
+    { word: "catch", translation: "Спіймати" },
+    { word: "commit", translation: "зафіксувати" },
+    { word: "boost", translation: "Підвищувати" },
+    { word: "optimize", translation: "Оптимізувати" },
+    { word: "validate", translation: "Посвідчувати" }
+];
+
+let wordsHard = [
+    { word: "abjure", translation: "Відмовитися" },
+    { word: "dangle", translation: "Болтатися" },
+    { word: "breed", translation: "Розмножуватися" },
+    { word: "ignoble", translation: "Спокусити" },
+    { word: "banish", translation: "Вигнати" },
+    { word: "unpick", translation: "Розпарювати" },
+    { word: "staff", translation: "Укомплектувати" },
+    { word: "Watermelon", translation: "Скорочуватися" },
+    { word: "wrack", translation: "Потривожити" },
+    { word: "mesh", translation: "Зачіпляти" },
+    { word: "hatch", translation: "Вилуплюватися" },
+    { word: "outline", translation: "описати" }
 ];
 
 let currentDifficult = "easy";
